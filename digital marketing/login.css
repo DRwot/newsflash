@@ -1,0 +1,71 @@
+.navbar{
+    width: 10%;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 0px;
+}
+.navbar ul{
+    list-style-type: none;
+}
+.navbar ul li{
+    text-decoration: none;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 0;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+} 
+.navbar a:hover{
+color: brown;
+} 
+.navbar ul .bottom{
+    padding-top: 325px;
+}.navbar ul li .active{
+    color: brown;
+}
+.content{
+    margin-left: 11%;
+    top: 0;
+}
+.heading{
+    font-size: 80px;
+    text-align: center;
+    font-weight: bolder;
+}
+h1{
+    font-weight: bold;
+    color: brown;
+}
+.info form input{
+border-radius: 10px;
+border-style: solid;
+font-size: 45px;
+margin-top: 15px;
+width: 1000px;
+padding-left: 10px;
+}
+.info form button {
+    font-size: 45px;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 25px;
+}       
+.info form {
+    max-width: 500px;
+    margin: auto;
+    margin-left: 11%;
+    padding-left: 60px;
+}
+button{
+    margin-left: 300px;
+}
